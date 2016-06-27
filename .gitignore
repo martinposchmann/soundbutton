@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+# Android Studio project files generated from gradle config
+/.idea
+*.iml
+.DS_Store 
+# Eclipse ADT
+.classpath
+.project
+.settings/
