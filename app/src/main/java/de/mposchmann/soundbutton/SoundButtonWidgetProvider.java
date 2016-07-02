@@ -76,9 +76,8 @@ public class SoundButtonWidgetProvider extends AppWidgetProvider {
 					
 					//init media players
 					List<MediaPlayer> mediaPlayers = new ArrayList<MediaPlayer>();
-					
-					mediaPlayers.add(createMediaPlayer(context, appWidgetId, R.raw.didi2));
-					//mediaPlayers.add(createMediaPlayer(context, appWidgetId, R.raw.didi3));
+
+					mediaPlayers.add(createMediaPlayer(context, appWidgetId, R.raw.sample1));
 
 					buttonContext.setMediaPlayers(mediaPlayers);
 				}
